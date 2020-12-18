@@ -1,0 +1,26 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "video rental app api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Samvid",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "fawn": "^2.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "mongoose-hidden": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
